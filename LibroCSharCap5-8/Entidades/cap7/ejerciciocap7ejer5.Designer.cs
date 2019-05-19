@@ -38,10 +38,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -72,14 +72,14 @@
             // 
             // busqueda
             // 
-            this.busqueda.Location = new System.Drawing.Point(35, 52);
+            this.busqueda.Location = new System.Drawing.Point(96, 50);
             this.busqueda.Name = "busqueda";
             this.busqueda.Size = new System.Drawing.Size(100, 22);
             this.busqueda.TabIndex = 3;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(152, 50);
+            this.button2.Location = new System.Drawing.Point(205, 47);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 4;
@@ -89,14 +89,14 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(35, 115);
+            this.textBox4.Location = new System.Drawing.Point(96, 92);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 22);
             this.textBox4.TabIndex = 5;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(189, 115);
+            this.textBox5.Location = new System.Drawing.Point(284, 89);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 22);
             this.textBox5.TabIndex = 6;
@@ -104,7 +104,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 95);
+            this.label1.Location = new System.Drawing.Point(32, 92);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 17);
             this.label1.TabIndex = 7;
@@ -113,11 +113,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(186, 95);
+            this.label2.Location = new System.Drawing.Point(202, 92);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 17);
+            this.label2.Size = new System.Drawing.Size(64, 17);
             this.label2.TabIndex = 8;
-            this.label2.Text = "telefono";
+            this.label2.Text = "Telefono";
             // 
             // groupBox1
             // 
@@ -132,6 +132,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Grardar";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(23, 53);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(58, 17);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Nombre";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label5);
@@ -143,19 +152,19 @@
             this.groupBox2.Controls.Add(this.textBox5);
             this.groupBox2.Location = new System.Drawing.Point(382, 26);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(377, 150);
+            this.groupBox2.Size = new System.Drawing.Size(406, 150);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Buscar";
             // 
-            // label3
+            // label5
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(23, 53);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 17);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Nombre";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(32, 50);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(58, 17);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Nombre";
             // 
             // label4
             // 
@@ -165,15 +174,6 @@
             this.label4.Size = new System.Drawing.Size(64, 17);
             this.label4.TabIndex = 4;
             this.label4.Text = "Telefono";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(39, 37);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 17);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Nombre";
             // 
             // ejerciciocap7ejer5
             // 
