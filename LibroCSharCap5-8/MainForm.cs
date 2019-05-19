@@ -46,5 +46,11 @@ namespace LibroCSharCap5_8
             ejerciciocap7ejer5 frm = new ejerciciocap7ejer5();
             frm.Show();
         }
+
+        private void Ejer4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EjericiosCap5ejer4 frm = new EjericiosCap5ejer4();
+            frm.Show();
+        }
     }
 }

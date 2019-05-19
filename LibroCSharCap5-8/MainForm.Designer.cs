@@ -37,6 +37,7 @@
             this.cap8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eje3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejer5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ejer4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,6 +57,8 @@
             // 
             // cap5ToolStripMenuItem
             // 
+            this.cap5ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ejer4ToolStripMenuItem});
             this.cap5ToolStripMenuItem.Name = "cap5ToolStripMenuItem";
             this.cap5ToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
             this.cap5ToolStripMenuItem.Text = "Cap5";
@@ -114,6 +117,13 @@
             this.ejer5ToolStripMenuItem.Text = "ejer5";
             this.ejer5ToolStripMenuItem.Click += new System.EventHandler(this.Ejer5ToolStripMenuItem_Click);
             // 
+            // ejer4ToolStripMenuItem
+            // 
+            this.ejer4ToolStripMenuItem.Name = "ejer4ToolStripMenuItem";
+            this.ejer4ToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.ejer4ToolStripMenuItem.Text = "ejer4";
+            this.ejer4ToolStripMenuItem.Click += new System.EventHandler(this.Ejer4ToolStripMenuItem_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -141,6 +151,7 @@
         private System.Windows.Forms.ToolStripMenuItem eje3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ejer5ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ejer5ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem ejer4ToolStripMenuItem;
     }
 }
 
