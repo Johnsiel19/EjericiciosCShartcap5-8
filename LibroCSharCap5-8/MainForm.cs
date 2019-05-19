@@ -19,8 +19,7 @@ namespace LibroCSharCap5_8
 
         private void Eje1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ejer1 frm = new ejer1();
-            frm.Show();
+    
 
         }
 
